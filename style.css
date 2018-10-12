@@ -59,6 +59,10 @@ li {
     padding-left: 3px;
 }
 
+li {
+    background-color: #ece5e5;
+}
+    
 li.even {
     background-color: #f2f2f2;
 }
@@ -75,7 +79,8 @@ div#picture {
 
 div#tribute-info {
     flex-basis: 50%;
-    background-image: linear-gradient(to bottom, #ffe6e6, #ffcccc);
+    /*background-image: linear-gradient(to bottom, #fff0f0, #ffe6e6, #ffcccc); */
+    background-image: linear-gradient(to bottom, #fff2f2, #fff0f0);
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
