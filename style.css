@@ -42,7 +42,7 @@ figure {
 }
 
 figcaption {
-    margin-top: .5em;
+    margin: .5em auto;
     text-align: center;    
 }
 
@@ -91,6 +91,15 @@ div#tribute-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    div#picture {
+        flex-basis: 100%;
+    }
+    div#tribute-info {
+        flex-basis: 100%;
+    }
 }
 
 hr {
