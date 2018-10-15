@@ -1,5 +1,11 @@
-* {
+:root {
     box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
 }
 
 html {
@@ -41,7 +47,9 @@ figcaption {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 div#main {
@@ -57,12 +65,9 @@ ul {
 li {
     padding: 1px;
     padding-left: 3px;
+    background-color: #ece5e5;    
 }
 
-li {
-    background-color: #ece5e5;
-}
-    
 li.even {
     background-color: #f2f2f2;
 }
@@ -79,7 +84,6 @@ div#picture {
 
 div#tribute-info {
     flex-basis: 50%;
-    /*background-image: linear-gradient(to bottom, #fff0f0, #ffe6e6, #ffcccc); */
     background-image: linear-gradient(to bottom, #fff2f2, #fff0f0);
     padding: 1em;
     padding-left: 2em;
